@@ -5,8 +5,6 @@ import { Link } from "react-router";
 const Destinations = () => {
   const [destinations, setDestinations] = useState(null);
 
-  // const stars =
-
   useEffect(() => {
     const fetchData = async () => {
       const data = await destLoader();

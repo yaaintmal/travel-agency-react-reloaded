@@ -7,7 +7,6 @@ export default function Destination() {
   const [destination, setDestination] = useState(null);
 
   const { id } = useParams();
-  const destinations = useOutletContext();
 
   useEffect(() => {
     const fetchData = async () => {
