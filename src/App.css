@@ -66,8 +66,13 @@
   align-items: center; /* Centers content vertically */
   padding: 1.5rem;
   max-width: 30rem; /* Prevents the card from getting too wide */
-  background-color: #1a202c; /* A deep, dark background */
-  color: white; /* Ensures text is readable on the dark background */
+  background-color: #1a202c;
+  color: rgba(
+    255,
+    255,
+    255,
+    0.596
+  ); /* Ensures text is readable on the dark background */
   border-radius: 1rem; /* More rounded corners for a softer look */
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5),
     /* Strong shadow for depth */ 0 0 20px 5px rgba(255, 255, 255, 0.1); /* A subtle white "glow" */

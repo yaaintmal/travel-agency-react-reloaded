@@ -32,7 +32,7 @@ const Destinations = () => {
               src={destination.image}
               alt={destination.title}
             />
-            <div className="item-content">
+            <div className="item-content text-justify">
               <h3 className="item-title">{destination.title}</h3>
               <p className="item-description">{destination.description}</p>
               <span className="item-slug">{destination.slug}</span>
