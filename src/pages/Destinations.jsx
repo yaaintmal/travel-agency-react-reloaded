@@ -24,7 +24,7 @@ const Destinations = () => {
       <h3 className="text-transparent bg-clip-text bg-gradient-to-tr from-primary to-secondary text-lg font-p-4 bg-gradient-to-r from-primary to-secondary text-right">
         Destinations Overview
       </h3>
-      <ul className="list-container mb-22">
+      <ul className="list-container mb-22 mt-4">
         {destinations.map((destination) => (
           <li key={destination.id} className="list-item">
             <img
